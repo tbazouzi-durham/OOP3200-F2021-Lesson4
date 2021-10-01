@@ -23,4 +23,3 @@ private:
 };
 
 #endif /* defined (__VECTOR_3D__) */
-

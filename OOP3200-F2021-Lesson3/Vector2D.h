@@ -43,7 +43,7 @@ public:
 	void Set(float x, float y);
 
 	// PUBLIC METHODS (Public Class Functions)
-	std::string ToString() const;
+	virtual std::string ToString() const;
 
 	// PUBLIC STATIC METHODS (Public Class Functions that are Static)
 	static float Distance(const Vector2D& lhs, const Vector2D& rhs);

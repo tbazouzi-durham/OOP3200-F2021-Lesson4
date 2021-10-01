@@ -5,8 +5,7 @@ Vector3D::Vector3D(const float x = 0.0f, const float y = 0.0f, const float z = 0
 	Set(x, y, z);
 }
 
-Vector3D::~Vector3D()
-= default;
+Vector3D::~Vector3D()= default;
 
 float Vector3D::GetZ() const
 {
