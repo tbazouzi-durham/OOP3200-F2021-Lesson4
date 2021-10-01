@@ -18,6 +18,7 @@ public:
 	// DESTRUCTOR
 	~Vector2D();
 
+	
 	// OPERATOR OVERRIDES
 	Vector2D operator=(const Vector2D& rhs_vector);
 	Vector2D operator+(const Vector2D& rhs_vector) const;
